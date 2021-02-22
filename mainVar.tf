@@ -20,7 +20,7 @@ variable "tags" {
 #Main Network RG
 variable "mainNetworkRG" {
   type        = string
-  default     = "MZVMainNetwork"
+  default     = "YOURVNETRESOURCEGROUPNAME"
   description = "Main Nework resource group name."
 
 }

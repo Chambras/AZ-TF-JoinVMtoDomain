@@ -14,13 +14,13 @@ variable "password" {
 
 variable "non_prod_ou" {
   type        = string
-  default     = "OU=Dev,OU=IT,DC=M365x735935,DC=onmicrosoft,DC=com"
+  default     = "OU=Dev,OU=IT,DC=test,DC=sample,DC=com"
   description = "OU where the server is going to be placed."
 }
 
 variable "ldapbind_account" {
   type        = string
-  default     = "devopsadmin@M365x735935.onmicrosoft.com"
+  default     = "serviceaccount@test.sample.com"
   description = "Domain account to use to join VMs to the domain."
   sensitive   = true
 }

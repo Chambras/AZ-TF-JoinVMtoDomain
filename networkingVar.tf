@@ -1,7 +1,7 @@
 ## Networking variables
 variable "vnetName" {
   type        = string
-  default     = "MZVMain"
+  default     = "YORVNETNAME"
   description = "VNet name."
 }
 

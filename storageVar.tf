@@ -1,5 +1,5 @@
 variable "saName" {
   type        = string
-  default     = "mzvmainvmlogsstrgccnt"
+  default     = "YOURSTORAGEACCOUNT"
   description = "Storage Account name for VM logs."
 }
