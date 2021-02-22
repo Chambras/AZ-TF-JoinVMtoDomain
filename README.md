@@ -1,4 +1,4 @@
-# Azure Join Windows Vm to Domain
+# Azure Join Windows VMs to a Domain
 
 It shows how easy is to use Azure VM extensions in order to automatically join Windows VMs to a specific Domain.
 
